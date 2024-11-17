@@ -1,0 +1,23 @@
+public class AssessmentOne {
+    public static void main(String[] args) {
+        System.out.println("Part 3");
+        // Create GeneralPractitioner and NursePractitioner objects using constructors with arguments,
+        // and then call the print methods inside the objects.
+        GeneralPractitioner gp1 = new GeneralPractitioner("1001", "Devin", "General Practitioner", 15);
+        gp1.printInformation();
+        System.out.println("------------------------------------");
+        GeneralPractitioner gp2 = new GeneralPractitioner("1002", "Nice", "General Practitioner", 10);
+        gp2.printInformation();
+        System.out.println("------------------------------------");
+        GeneralPractitioner gp3 = new GeneralPractitioner("1003", "Tom", "General Practitioner", 6);
+        gp3.printInformation();
+        System.out.println("------------------------------------");
+
+
+        NursePractitioner np1 = new NursePractitioner("1004", "Yang", "Nurse Practitioner", 20);
+        np1.printInformation();
+        System.out.println("------------------------------------");
+        NursePractitioner np2 = new NursePractitioner("1005", "Ming", "Nurse Practitioner", 7);
+        np2.printInformation();
+  }
+}
